@@ -15,12 +15,11 @@ export const About = () => {
         </div>
         <div className="about__content">
           <p>
-            I am a Fullstack Developer specialized in MERN Stack. I'm proficient
-            in working with teams and building interactive web applications.
-            Strongly interested in obtaining a developer position to work on
-            enhancing product experience. Apart from writing codes, I love to
-            discuss about new tech, travel to different places, and write a
-            blog.
+          looking to put my technology and leadership skills to use in a major organisation. 
+          well-versed in algorithms and data structures. 
+          tech-savvy, fast to pick up new skills, technologically interested by nature, 
+          and an excellent communicator In addition to producing programming, 
+          I enjoy blogging, exploring new locations, and talking about new technology.
           </p>
           <h4 className="span-text">Want to know more?</h4>
           <a href="#contact" className="btn btn-primary">
