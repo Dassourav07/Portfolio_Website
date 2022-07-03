@@ -52,7 +52,7 @@ export const MyContact = () => {
             <h4>WhatsApp</h4>
             <h5>+91-8967969758</h5>
             <a
-              href="https://api.whatsapp.com/send?phone=918967969758"
+              href="https://api.whatsapp.com/send?phone=+918967969758"
               target="_blank"
               rel="noreferrer"
             >
