@@ -1,0 +1,156 @@
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+   
+  
+}
+
+.portfolio__item {
+  padding: 0.12rem;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  border-color: var(--color-primary-variant);
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 100%;
+}
+
+.portfolio__item:hover {
+  border-color: var(--color-bg-variant);
+}
+
+.portfolio__item-top {
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.portfolio__item-back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  border-radius: 1rem;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  background-color: var(--color-bg-variant);
+  padding: 1em;
+  overflow-y: hidden;
+}
+.portfolio__item .card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+  transform: perspective(500px);
+}
+.portfolio__item .card:hover {
+  transform: rotateY(180deg);
+}
+
+.portfolio__item-top img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: rgb(60, 60, 55);
+  width: 100%;
+  
+  
+}
+
+.portfolio__item h3 {
+  margin: 1.2rem 0 0.5rem 0rem;
+  color: gold;
+}
+
+.portfolio__item small {
+  font-weight: light;
+  color: var(--color-light);
+}
+.portfolio__item-cta {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1em;
+}
+
+.portfolio__item-back h5 {
+  text-align: center;
+  text-decoration: underline var(--color-bg-variant);
+  color: rgb(252, 248, 249);
+  margin: 0.5em;
+}
+.tech-stack {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+  font-size: 0.6em;
+  justify-content: center;
+}
+.tech-stack span {
+  background-color: rgb(236, 179, 10);
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ====  Media Queries (Medium Devices) ===*/
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.3rem;
+  }
+  .tech-stack span {
+    background-color: rgba(230, 240, 38, 0.916);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tech-stack {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    font-size: 0.5em;
+    justify-content: center;
+  }
+}
+
+/* ====  Media Queries (Small Devices) ===*/
+@media screen and (max-width: 600px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .tech-stack {
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+    font-size: 0.3em;
+    justify-content: center;
+  }
+  .tech-stack span {
+    background-color: rgba(240, 248, 255, 0.137);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

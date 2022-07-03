@@ -1,0 +1,19 @@
+.spacer {
+  /* background-color: black; */
+  height: 6em;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.spacer p {
+  margin-top: 1rem;
+}
+.socials a {
+  margin: 0.5em;
+  font-size: 2em;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+}
