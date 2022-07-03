@@ -7,9 +7,9 @@ export let projects = [
     id: 1,
     image:  "https://user-images.githubusercontent.com/94233240/174303444-77ae094c-951a-420e-bb99-b6e998916077.png",
     title: "Social Media Clone",
-    info: "Bobbi Brown Cosmetics is a global premium beauty brand that empowers women to embrace and enhance their individual beauty.",
+    info: "It is a social media clone where users may publish, like, and comment on content made by friends. You may categorise your articles and see them based on categories as well. There are several options for searching, including profiles, posts, and postings that fall under particular categories.",
     github: "https://github.com/Dassourav07/canvas_social",
-    techstack: ["Django", "HTML","J Query", "CSS", "JavaScript", "Bootstrap 4", "SQLite3"],
+    techstack: ["Django", "HTML", "CSS", "JavaScript", "Bootstrap 4", "SQLite3"],
   },
   {
     id: 2,
