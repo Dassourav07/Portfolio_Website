@@ -58,8 +58,8 @@ header {
 .me {
   background-color: rgba(210, 210, 186, 0.842);
   /* background-color: transparent; */
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   position: relative;
   left: calc(50% - 10rem);
   margin: auto;
