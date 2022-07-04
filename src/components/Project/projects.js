@@ -6,7 +6,7 @@ export let projects = [
  
   {
     id: 1,
-    image:  "https://user-images.githubusercontent.com/94233240/177162932-4a7ab320-3365-4ead-ac4d-0e58b06d9d66.jpg",
+    image:  "https://user-images.githubusercontent.com/94233240/177165606-a30eca8a-5171-474b-8aec-8b238f001aa0.jpg",
     title: "Cryptocurrency tracker application using React.js",
     info: "cryptocurrency tracker application using React.js, live marketcap and valuation of different cryptocurrencys",
     github: "https://github.com/Dassourav07/canvas_social",
