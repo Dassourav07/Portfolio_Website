@@ -27,7 +27,7 @@ export default function Footer() {
             <FaInstagramSquare />
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=918967969758"
+            href="https://api.whatsapp.com/send?phone=+91-8967969758"
             target="_blank"
             rel="noreferrer"
           >
