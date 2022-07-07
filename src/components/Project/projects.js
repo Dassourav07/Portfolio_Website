@@ -47,11 +47,11 @@ export let projects = [
   },
  {
     id: 6,
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmoHqA_bh2sZuovTAzthNehP0YabIrdXPbeA&usqp=CAU",
-    title: "Random OTP Generation",
-    info: "a random string of the necessary length by generating a string that comprises all digits and alphanumeric characters and then adding them all to a list.",
-    github: "https://github.com/Dassourav07/OTP_Generation",
-    techstack: ["python", "vs code"],
+    image: "https://images.techopedia.com/images/uploads/computer-hardware-electronics-hardware-logo-trademark-poster-building.jpg",
+    title: "Caonference Management System",
+    info: "A web based conference management system using Django.",
+    github: "https://github.com/Dassourav07/conference_management",
+    techstack: ["python", "Django", "Bootstap", "html",""],
   },
 
 ];
