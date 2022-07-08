@@ -7,7 +7,7 @@ export let projects = [
     title: "Caonference Management System",
     info: "A web based conference management system using Django.",
     github: "https://github.com/Dassourav07/conference_management",
-    techstack: ["python", "Django", "Bootstap", "html",""],
+    techstack: ["python", "Django", "Bootstap", "html","mapbox api"],
   },
  {
     id: 2,
