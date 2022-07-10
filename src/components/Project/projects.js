@@ -3,7 +3,7 @@ export let projects = [
  
   {
     id: 1,
-    image: "https://images.techopedia.com/images/uploads/computer-hardware-electronics-hardware-logo-trademark-poster-building.jpg",
+    image: "https://user-images.githubusercontent.com/94233240/178147211-f7b3d071-10da-411b-9947-d99cc7a940ee.jpg",
     title: "Caonference Management System",
     info: "A web based conference management system using Django.",
     github: "https://github.com/Dassourav07/conference_management",
