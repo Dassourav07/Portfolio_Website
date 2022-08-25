@@ -1,6 +1,7 @@
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import {ImWhatsapp} from "react-icons/im"
+import {ImWhatsapp} from "react-icons/im";
+import {ImInstagram} from "react-icons/in"
 
 export const HeaderSocial = () => {
   return (
@@ -23,7 +24,11 @@ export const HeaderSocial = () => {
         rel="noreferrer">
           <ImWhatsapp />
         </a>
-
+        <a href="https://www.instagram.com/dsourav7/"
+        target="_blank" 
+        rel="noreferrer">
+          <ImWhatsapp />
+        </a>
       </div>
     </div>
   );
