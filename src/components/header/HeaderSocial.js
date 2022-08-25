@@ -1,7 +1,7 @@
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import {ImWhatsapp} from "react-icons/im";
-import {ImInstagram} from "react-icons/in"
+import {ImInstagram} from "react-icons/im"
 
 export const HeaderSocial = () => {
   return (
