@@ -27,7 +27,7 @@ export const HeaderSocial = () => {
         <a href="https://www.instagram.com/dsourav7/"
         target="_blank" 
         rel="noreferrer">
-          <ImWhatsapp />
+          <ImInstagram />
         </a>
       </div>
     </div>
