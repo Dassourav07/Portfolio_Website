@@ -20,7 +20,7 @@ export default function Footer() {
             <BsLinkedin />
           </a>
           <a
-            href="https://www.instagram.com/sourav--das//"
+            href="https://www.instagram.com/dsourav7"
             target="_blank"
             rel="noreferrer"
           >
