@@ -1,5 +1,5 @@
 import "./about.css";
-import Me from "../../assets/me12.png";
+import Me from "../../assets/me12.jpg";
 // import { FiAward } from "react-icons/fi";
 
 export const About = () => {
