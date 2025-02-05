@@ -62,7 +62,7 @@ header {
   position: relative;
   left: calc(50% - 10rem);
   margin: auto;
-  margin-top: -1rem;
+  margin-top: -12rem;
   border-radius: 50%; /* Perfect circle */
   overflow: hidden;
   padding: 0; /* Remove extra padding */
